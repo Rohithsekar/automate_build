@@ -6,7 +6,7 @@ It utilizes the dependencies we define, for producing our executable and constru
 
 During every invocation of the make command( or mingw32-make command, if you use windows GNU gcc compiler)
 it recompiles only the changed files between successive invocation and saves huge amounts of compilation time.
-It walks down the particular branch of the dependency tree and build the required dependencies from there.
+It walks down the particular branch of the dependency tree and re-build the required dependencies from there.
 
 I thank Barry Brown youtube channel for explaining what Makefiles are, in a very simple manner . This 
 code uses the MakeFile the same one as his.
